@@ -32,7 +32,7 @@ align-items: baseline;*/
 
 
 .item {
-	width: 100px;
+/*	width: 200px;*/
 	height: 100px;
 	margin: 10px;
 	background: white;
@@ -41,20 +41,30 @@ align-items: baseline;*/
 /*	a tag flex grow define a proporção de espaço ocupada por um item*/
 flex-grow: 1;
 
+/*Define a capacidade de redução de tamanho do item*/
+	flex-shrink: 1;
+
+	flex-basis: 50px;
+
 }
 
 .item1 {
-	flex-grow: 1;
+/*	flex-grow: 1;*/
+/*	flex-shrink: 1;*/
 
 }
 
 .item2 {
-	flex-grow: 2;
+	flex-grow: 3;
+/*	flex-shrink: 2;*/
+
 
 }
 
 .item3 {
-	flex-grow: 2;
+	flex-grow: 4;
+/*	flex-shrink: 5;*/
+
 
 }
 
